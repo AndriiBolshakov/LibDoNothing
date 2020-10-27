@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LibDoNothing_Tests' do
+  pod 'LibDoNothing', :path => '../'
+  
+  
+end
