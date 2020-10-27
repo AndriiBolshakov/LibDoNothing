@@ -1,0 +1,6 @@
+framework module LibDoNothing {
+  umbrella header "LibDoNothing-umbrella.h"
+
+  export *
+  module * { export * }
+}

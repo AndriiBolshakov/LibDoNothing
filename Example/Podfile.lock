@@ -1,0 +1,16 @@
+PODS:
+  - LibDoNothing (0.1.0)
+
+DEPENDENCIES:
+  - LibDoNothing (from `../`)
+
+EXTERNAL SOURCES:
+  LibDoNothing:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LibDoNothing: c297ae0205406b3b032e196f0d6dc8478b5fd059
+
+PODFILE CHECKSUM: 15ba142cb4102d4fe82a6839698e64f1514b1b74
+
+COCOAPODS: 1.9.3
