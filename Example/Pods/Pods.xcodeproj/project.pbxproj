@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5985AFF03CAD197C63CA2E6E1702B398 /* Pods-LibDoNothing_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F132DED6AE82520995EBD87ECA07F30D /* Pods-LibDoNothing_Tests-dummy.m */; };
 		936A74A1531953DC35AAD6852314672C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A5939DF4F9A36926DA99536B418871A6 /* DoNothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855A6398147E9EFF7A19FCC59341E866 /* DoNothing.swift */; };
+		A5939DF4F9A36926DA99536B418871A6 /* NothingDoer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855A6398147E9EFF7A19FCC59341E866 /* NothingDoer.swift */; };
 		C1627063E0C2F9A3F3D9BA4E59F8D411 /* LibDoNothing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F2E247B742B4C61F10E9D6D90077A /* LibDoNothing-dummy.m */; };
 		EF34DD5AE56C8C52E1859949C46F58A2 /* Pods-LibDoNothing_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC13F9021C0F384794099C213CC4D8D /* Pods-LibDoNothing_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3887EE91CCDB003914D89036EE02E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,7 +39,7 @@
 		5E523FB5548597C83176FA5740AC8C8D /* LibDoNothing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibDoNothing-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C640B82E2BD9D3AB26B954E0CA7DA65 /* LibDoNothing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibDoNothing.release.xcconfig; sourceTree = "<group>"; };
-		855A6398147E9EFF7A19FCC59341E866 /* DoNothing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoNothing.swift; path = LibDoNothing/Classes/DoNothing.swift; sourceTree = "<group>"; };
+		855A6398147E9EFF7A19FCC59341E866 /* NothingDoer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NothingDoer.swift; path = LibDoNothing/Classes/NothingDoer.swift; sourceTree = "<group>"; };
 		882F9FFF1B9F3E7E1442913F3414F7E5 /* Pods-LibDoNothing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibDoNothing_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		903C93153C4A1770FC0760538B1BC5E2 /* LibDoNothing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibDoNothing-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -170,7 +170,7 @@
 		FD8D27D61B9BBCF72442748375D836F2 /* LibDoNothing */ = {
 			isa = PBXGroup;
 			children = (
-				855A6398147E9EFF7A19FCC59341E866 /* DoNothing.swift */,
+				855A6398147E9EFF7A19FCC59341E866 /* NothingDoer.swift */,
 				02125A128000B57726B0CEDCA9D192ED /* Pod */,
 				B60882D6FF2B400E6F7BD10D524DDBDD /* Support Files */,
 			);
@@ -288,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1627063E0C2F9A3F3D9BA4E59F8D411 /* LibDoNothing-dummy.m in Sources */,
-				A5939DF4F9A36926DA99536B418871A6 /* DoNothing.swift in Sources */,
+				A5939DF4F9A36926DA99536B418871A6 /* NothingDoer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
